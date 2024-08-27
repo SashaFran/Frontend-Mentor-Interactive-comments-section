@@ -9,6 +9,6 @@ const CommentInput = ({ onSend }) => {
             setCommentText('');
         }
     };
-    return (_jsxs("section", { className: styles.commentInput, children: [_jsxs("div", { children: [_jsx("img", { src: '../../interactive-comments-section-main/images/avatars/image-juliusomo.png', alt: "user avatar" }), _jsx("input", { type: "text", placeholder: "Add a comment...", value: commentText, onChange: (e) => setCommentText(e.target.value) })] }), _jsx("button", { onClick: handleSendClick, children: "Send" })] }));
+    return (_jsxs("section", { className: styles.commentInput, children: [_jsxs("div", { children: [_jsx("img", { src: '../assets/images/avatars/image-juliusomo.png', alt: "user avatar" }), _jsx("input", { type: "text", placeholder: "Add a comment...", value: commentText, onChange: (e) => setCommentText(e.target.value) })] }), _jsx("button", { onClick: handleSendClick, children: "Send" })] }));
 };
 export default CommentInput;
