@@ -18,11 +18,11 @@ const Comment = ({ id, content, createdAt, score: initialScore, user, replies, o
       <article className={styles.comment}>
         <aside className={styles.commentScore}>
           <button onClick={incrementScore}>
-            <img src="../assets/images/icon-plus.svg" alt="icon plus" />
+            <img src="assets/images/icon-plus.svg" alt="icon plus" />
           </button>
           <span>{score}</span>
           <button onClick={decrementScore}>
-            <img src="../assets/images/icon-minus.svg" alt="icon minus" />
+            <img src="assets/images/icon-minus.svg" alt="icon minus" />
           </button>
         </aside>
         <section className={styles.commentBody}>
@@ -34,7 +34,7 @@ const Comment = ({ id, content, createdAt, score: initialScore, user, replies, o
             </section>
             <section>
               <button onClick={handleReplyClick}>
-                <img src="../assets/images/icon-reply.svg" alt="icon reply" />
+                <img src="assets/images/icon-reply.svg" alt="icon reply" />
                 Reply
               </button>
             </section>

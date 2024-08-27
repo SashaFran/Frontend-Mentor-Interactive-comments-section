@@ -14,7 +14,7 @@ const CommentInput = ({ onSend }) => {
   return (
     <section className={styles.commentInput}>
       <div>
-        <img src='../assets/images/avatars/image-juliusomo.png' alt="user avatar" />
+        <img src='assets/images/avatars/image-juliusomo.png' alt="user avatar" />
         <input
           type="text"
           placeholder="Add a comment..."
