@@ -88,7 +88,7 @@ const CommentList = () => {
       if (reply.id === parentId) {
         return {
           ...reply,
-          replies: [...(reply.replies || []), newComment], // Asegúrate de que `reply.replies` esté definido como un array
+          replies: [...(reply.replies || []), newComment],
         };
       }
       if (reply.replies && reply.replies.length > 0) {
