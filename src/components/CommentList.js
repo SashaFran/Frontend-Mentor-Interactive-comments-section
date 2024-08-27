@@ -63,7 +63,7 @@ const CommentList = () => {
             if (reply.id === parentId) {
                 return {
                     ...reply,
-                    replies: [...(reply.replies || []), newComment], 
+                    replies: [...(reply.replies || []), newComment],
                 };
             }
             if (reply.replies && reply.replies.length > 0) {
