@@ -1,0 +1,42 @@
+:root {
+/* Colors */
+
+  --main-color-primary-moderate_blue: hsl(238, 40%, 52%);
+  --main-color-primary-soft_red: hsl(358, 79%, 66%);
+  --main-color-primary-light_grayish_blue: hsl(239, 45%, 95%);
+  --main-color-primary-pale_red: hsl(357, 100%, 86%);
+
+  --main-color-neutral-dark_blue: hsl(212, 24%, 26%);
+  --main-color-neutral-grayish_blue: hsl(211, 10%, 45%);
+  --main-color-neutral-light_gray: hsl(223, 19%, 93%);
+  --main-color-neutral-very_light_gray: hsl(228, 33%, 97%);
+  --main-color-neutral-white: hsl(0, 0%, 100%);
+
+/* Typography */
+
+ --main-font-font_size-m: 16px;
+
+ --main-font-family: "Rubik", sans-serif;
+
+ --main-font-weight-regular: 400;
+ --main-font-weight-regular_bold: 500;
+ --main-font-weight-bolder: 700;
+}
+body{
+  font-family: var(--main-font-family) !important;
+  background-color: var(--main-color-primary-light_grayish_blue);
+}
+main {
+  width: 42rem;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.comment-list{
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+button{
+  font-family: var(--main-font-family) !important;
+}

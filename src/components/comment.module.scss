@@ -1,0 +1,93 @@
+.comment{
+    padding: 1rem;
+    background-color: var(--main-color-neutral-white);
+    border-radius: 5px;
+    display: flex;
+    gap: 1rem;
+}
+.comment{
+    .commentScore{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: var(--main-color-primary-light_grayish_blue);
+        padding: 0.5rem;
+        border-radius: 5px;
+        height: fit-content;
+        
+        button{
+            border: none;
+            font-weight: var(--main-font-weight-bolder);
+            background-color: transparent;
+            cursor: pointer;
+        }
+        *:nth-child(n){
+            padding: 0.2rem;
+        }
+        span{
+            color: var(--main-color-primary-moderate_blue);
+            font-weight: var(--main-font-weight-regular_bold);
+        }
+    }
+    p{
+        font-size: var(--main-font-font_size-m);
+        color: var(--main-color-neutral-grayish_blue);
+    }
+}
+.commentBody{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 100%;
+    p{
+        margin: 0;
+    }
+}
+.commentHeader{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    section:nth-child(1){
+        display: inline-flex;
+        align-items: center;
+        gap: 1rem;
+        *{
+            margin: 0;
+        }
+        h4{
+            font-weight: var(--main-font-weight-regular_bold);
+            font-size: var(--main-font-font_size-m);
+        }
+    }
+    section:nth-child(2){
+        button{
+            border: none;
+            background-color: transparent;
+            color: var(--main-color-primary-moderate_blue);
+            font-weight: var(--main-font-weight-bolder);
+            cursor: pointer;
+            font-size: var(--main-font-font_size-m);
+        }
+    }
+}
+.repliesContainer {
+  display: flex;
+}
+
+.verticalLine {
+  width: 2px;
+  background-color: #ccc;
+  margin: 0 2.5rem 0 2.5rem;
+}
+
+.replies {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+.reply{
+    background-color: var(--main-color-neutral-white);
+    border-radius: 5px;
+}

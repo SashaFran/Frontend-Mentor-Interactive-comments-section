@@ -1,0 +1,41 @@
+.commentInput{
+    padding: 1rem;
+    background-color: var(--main-color-neutral-white);
+    border-radius: 8px;
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+    div{
+        display: inline-flex;
+        gap: 1rem;
+        align-items: flex-start;
+        width: 100%;
+    }
+    input{
+        font-size: var(--main-font-font_size-m);
+        color: var(--main-color-neutral-grayish_blue);
+        border: 1px solid var(--main-color-neutral-light_gray);
+        margin-top: 0;
+        width: 100%;
+        height: 100%;
+        border-radius: 5px;
+        font-family: var(--main-font-family);
+    }
+    input:focus{
+        outline: 1px solid var(--main-color-primary-moderate_blue);
+    }
+    input[type="text"]::placeholder {      
+        text-align: left;
+    } 
+    button{
+        text-transform: uppercase;
+        color: var(--main-color-neutral-white);
+        font-weight: var(--main-font-weight-bolder);
+        background-color: var(--main-color-primary-moderate_blue);
+        border-radius: 8px;
+        border: none;
+        padding: 1rem 2rem;
+        height: fit-content;
+        cursor: pointer;
+    }
+}
